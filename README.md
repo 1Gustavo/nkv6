@@ -1,4 +1,4 @@
-##<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="29px">  BOT WA BY NUKE MODS
+##<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="29px">  BOT BY NUKE
 <img src="https://pbs.twimg.com/profile_images/1052928167562936320/dERMxHms.jpg" width="230" height="230"/>
 
 <p align="center">
