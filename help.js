@@ -1,23 +1,21 @@
 const help = (prefix) => { 
 	return `  
- ㅤㅤㅤㅤㅤㅤㅤㅤ 🌍
-    •••••••꧁ঔৣNUKE BOTঔৣ꧂••••••
-    ╭──꧁✞ COMANDOS ✞꧂──🔆
-    ║╭──꧁✞ BOT ✞꧂──🔆
-    ║╠➣ BOT TOTALMENTE GRATIS
+ ㅤㅤㅤㅤ
+    •••••••ঔৣNUKE BOTঔৣ••••••
+    ╭────🔆status: Online
+    ║╭──🔆✞BOT✞🔆
+    ║╠➣ ATENÇÃO ALGUNS COMANDOS ESTAO DESATIVADOS
     ║╰───────────────── 
     ⟞⟦────────────────🔰
     ║ ꧁ঔৣ✞NUKE BOT✞ঔৣ꧂
     ⟞⟦────────────────🔰
-    ║╭──꧁✞ 🌍INOFO COVID🌍 ✞꧂──🔆
-    ║║         🌍Mundial🌍
-    ║╠Casos: 89,742,458
-    ║╠Novos casos: +399,275
-    ║╠Mortes: 1,928,542
-    ║╠Novas Mortes: +7,423
-    ║╠Recuperados: 64,251,727
-    ║╠em tratamento: 23,562,189
-    ║╰───────────────── 
+    ║╭──꧁✞ 🌍INOFO DO CRIADOR🌍 ✞꧂──🔆
+    ║║         🌍NUKE🌍
+    ║╠CRIADOR: NUKE MODS
+    ║╠TRADUZIDO POR: NUKE MODS
+    ║╠: BOT:NK V6
+    ║╠-------------------
+    ║╰─꧁✞ COMANDOS ✞꧂─── 
     ⟞⟦────────────────🔰
     ║ ꧁ঔৣ✞NUKE BOT✞ঔৣ꧂
     ⟞⟦────────────────🔰
@@ -72,7 +70,7 @@ const help = (prefix) => {
     ║╠➣ *${prefix}nsfwtrap* 
     ║╰────────────────
     ⟞⟦───────────────
-    ║ ꧁ঔৣ✞NUKE BOT✞ঔৣ꧂
+    ║ ঔৣ✞NUKE BOT✞ঔৣ
     ⟞⟦───────────────
     ║╭──꧁✞*DOWNLOAD*✞꧂──🔆
     ║╠➣ *${prefix}tiktokstalk*
@@ -100,7 +98,7 @@ const help = (prefix) => {
     ║╠➣ *${prefix}indohot*
     ║╰────────────────
     ⟞⟦─────────────────
-    ║ ꧁ঔৣ✞NUKE BOTঔৣ꧂
+    ║ ঔৣ✞NUKE BOTঔৣ
     ⟞⟦─────────────────
     ║╭──꧁✞*GRUPO*✞꧂──🔆
     ║╠➣ *${prefix}linkgc*
@@ -116,14 +114,14 @@ const help = (prefix) => {
     ║╠➣ *${prefix}welcome* [1/0]
     ║╰────────────────
     ⟞⟦─────────────────
-    ║ ꧁ঔৣ✞NUKE BOT✞ঔৣ꧂
+    ║ ঔৣ✞NUKE BOT✞ঔৣ
     ⟞⟦─────────────────
     ║╭──꧁✞SOBRE O BOT✞꧂─
-    ║╠➣ OFF
-    ║╠➣ OFF
+    ║╠➣ Versão v6
+    ║╠➣ Atualização em breve 
     ║╰────────────────
     ⟞⟦─────────────────
-    ║ ꧁ৣ✞NUKE BOT✞ঔৣ꧂
+    ║ ৣ✞NUKE BOT✞ঔৣ
     ⟞⟦─────────────────
     ║╭──꧁✞*Owner bot*✞꧂─
     ║╠➣ *${prefix}clearall*
@@ -135,27 +133,23 @@ const help = (prefix) => {
     ║╠➣ *${prefix}setprefix*
     ║╰────────────────
     ⟞⟦─────────────────
-    ║꧁ঔৣ✞NUKE BOT✞ঔৣ꧂
+    ║ঔৣ✞NUKE BOT✞ঔৣ
     ⟞⟦─────────────────
     ║╭──꧁✞ ADMIN ✞꧂──🔆
-    ║╠➣ Group WhatsApp
-    ║║  OFF
+    ║╠➣ 
+    ║║  
     ║╠➣ YouTube <subscribe>https://www.youtube.com/channel/UCj7RQZl2gSaVlYDJ4le5_vQ
     ║║ 
-    ║╠➣ Instagram 
-    ║║  OFF
-    ║╠➣ Creator NUKE MODS
+    ║╠
+    ║╠➣ Criador NUKE MODS
     ║║ Wa.me/+5519991718371
     ║║ 
     ║╰─────────────────
     ┗━┅┅┄┄⟞⟦ NUKE BOT ⟧⟝┄┄┉┉━┛
-  ESPERO QUE TENHAM GOSTADO DO BOT🤙🏻
+  ESPERO QUE TENHAM GOSTADO DA ATT DO BOT 🤙🏻
 Criador: NUKE MODS 
 ×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=              
 `
 }
 exports.help = help
 
-
-
-  
