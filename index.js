@@ -902,7 +902,7 @@ client.on('group-participants-update', async (anu) => {
 						mentions(teks, mentioned, true)
 						client.groupMakeAdmin(from, mentioned)
 					} else {
-						mentions(`Parabens🥳 @${mentioned[0].split('@')[0]} voce foi promovido para adm do grp (+_+)`, mentioned, true)
+						mentions(`Parabens🥳 @${mentioned[0].split('@')[0]} VOCE FOI PROMOVIDO A ADMIN DO GRUPO`, mentioned, true)
 						client.groupMakeAdmin(from, mentioned)
 					}
 					break	
