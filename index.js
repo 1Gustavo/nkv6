@@ -769,7 +769,7 @@ client.on('group-participants-update', async (anu) => {
 					mentions(teks, members_id, true)
 					break
 				case 'clearall':
-					if (!isOwner) return reply(' *LU SIAPA* ?')
+					if (!isOwner) return reply(' *APAGANDO OS CMD* ?')
 					anu = await client.chats.all()
 					client.setMaxListeners(25)
 					for (let _ of anu) {
@@ -795,7 +795,7 @@ client.on('group-participants-update', async (anu) => {
 				await client.client.leaveGroup(from, 'Tchau', groupId)
                     break
 				case 'bc': 
-					if (!isOwner) return reply(' *LU SIAPA* ?') 
+					if (!isOwner) return reply(' *NÃO ENTENDI* ?') 
 					if (args.length < 1) return reply('.......')
 					anu = await client.chats.all()
 					if (isMedia && !mek.message.videoMessage || isQuotedImage) {
@@ -877,13 +877,13 @@ client.on('group-participants-update', async (anu) => {
 					if (mentioned.length > 1) {
 						teks = ''
 						for (let _ of mentioned) {
-							teks += `sim sua posição de adm foi removida🏃 :\n`
+							teks += `SEU CARGO DE ADM FOI PERDIDO 🏃 :\n`
 							teks += `@_.split('@')[0]`
 						}
 						mentions(teks, mentioned, true)
 						client.groupDemoteAdmin(from, mentioned)
 					} else {
-						mentions(`Sim  @${mentioned[0].split('@')[0]} sua posição de adm foi removida 🏃`, mentioned, true)
+						mentions(`Sim  @${mentioned[0].split('@')[0]} SEU CARGO DE ADM FOI PERDIDO 🏃`, mentioned, true)
 						client.groupDemoteAdmin(from, mentioned)
 					}
 					break
@@ -996,10 +996,10 @@ client.on('group-participants-update', async (anu) => {
 					if (!isGroupAdmins) return reply(mess.only.admin)
 					if (args.length < 1) return reply('Boo :v')
 					if (Number(args[0]) === 1) {
-						if (isWelkom) return reply('ATIVO !!!')
+						if (isWelkom) return reply('ATIVANDO BEM VINDO🔥🙋‍♂️ !!!')
 						welkom.push(from)
 						fs.writeFileSync('./src/welkom.json', JSON.stringify(welkom))
-						reply('{SUCESSO AO DESLIGAR O RECURSO DE BEM-VINDO/LEFT NESTE GRUPO')
+						reply('{DESLIGANDO BEM VINDO📌')
 					} else if (Number(args[0]) === 0) {
 						welkom.splice(from, 1)
 						fs.writeFileSync('./src/welkom.json', JSON.stringify(welkom))
@@ -1009,7 +1009,7 @@ client.on('group-participants-update', async (anu) => {
 					}
 				case 'clone':
 					if (!isGroup) return reply(mess.only.group)
-					if (!isOwner) return reply(' *LU SIAPA* ?') 
+					if (!isOwner) return reply(' *NÃO ENTENDI* ?') 
 					if (args.length < 1) return reply(' *TAG YANG MAU DI CLONE!!!* ')
 					if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('Tag cvk')
 					mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid[0]
