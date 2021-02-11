@@ -754,18 +754,16 @@ client.on('group-participants-update', async (anu) => {
                  const linkgc = await conn.groupInviteCode (from) 
                  reply (linkgc)
                  break 
-				case 'tagall':
-					if (!isGroup) return reply(mess.only.group)
-					if (!isGroupAdmins) return reply(mess.only.admin)
+				case 'Nuke':
 					members_id = []
 					teks = (args.length > 1) ? body.slice(8).trim() : ''
 					teks += '\n\n'
 					for (let mem of groupMembers) {
-						rchoice = Math.floor(Math.random() * list_emoji.length)
-						teks += `┣➥ @${mem.jid.split('@')[0]}\n`
+						teks += `╠➥ @${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
-					mentions(teks, members_id, true)
+					reply(teks)
+					
 					break
 				case 'clearall':
 					if (!isOwner) return reply(' *APAGANDO OS CMD* ?')
