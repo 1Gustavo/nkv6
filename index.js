@@ -754,7 +754,7 @@ client.on('group-participants-update', async (anu) => {
                  const linkgc = await conn.groupInviteCode (from) 
                  reply (linkgc)
                  break 
-				case '!mn':
+				case 'tagall':
 					members_id = []
 					teks = (args.length > 1) ? body.slice(8).trim() : ''
 					teks += '\n\n'
