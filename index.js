@@ -30,10 +30,10 @@ const welkom = JSON.parse(fs.readFileSync('./src/welkom.json'))
 const nsfw = JSON.parse(fs.readFileSync('./src/nsfw.json'))
 const samih = JSON.parse(fs.readFileSync('./src/simi.json'))
 const vcard = 'BEGIN:VCARD\n' 
-            + 'VERSION:3.0\n' 
-            + 'FN:Affis Admin\n' 
-            + 'ORG: Pengembang XBot;\n' 
-            + 'TEL;type=CELL;type=VOICE;waid=6282334297175:+62 823-3429-7175\n' 
+            + 'VERSION:7.0\n' 
+            + 'FN:Nuke Admin\n' 
+            + 'ORG: Pengembang nkvBot;\n' 
+            + 'TEL;type=CELL;type=VOICE;waid=6282334297175:+5519991718371\n' 
             + 'END:VCARD' 
 prefix = '!'
 blocked = []          
@@ -46,10 +46,9 @@ const time = moment().tz('Asia/Jakarta').format("HH:mm:ss")
 const arrayBulan = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember']
 const bulan = arrayBulan[moment().format('MM') - 1]
 const config = {
-    XBOT: '❉AmpibI❉', 
-    instagram: 'https://instagram.com/affis_saputro123', 
-    nomer: 'wa.me/6282334297175',
-    youtube: 'https://youtube.com/channel/UCGYLWtyT9IADYNUiK0uZiGg', 
+    NKV: '❉NUKEMODS❉', 
+    nomer: 'wa.me/+5519991718371',
+    youtube: 'https://www.youtube.com/channel/UCj7RQZl2gSaVlYDJ4le5_vQ', 
     whatsapp: 'Comming soon', 
     tanggal: `TANGGAL: ${moment().format('DD')} ${bulan} ${moment().format('YYYY')}`,
     waktu: time
@@ -154,7 +153,7 @@ client.on('group-participants-update', async (anu) => {
 				wait: '❬❗❭ BOT DO NUKE PROCESSANDO%',
 				success: '️❬ ✔ ❭ SUCESSO 🖤',
 				error: {
-					stick: 'Yah gagal ;(, coba ulangi ^_^',
+					stick: 'Bem, falhei; (tente repetir ^_^',
 					Iv: 'PUTS LINK INVÁLIDO☹️'
 				},
 				only: {
@@ -167,7 +166,7 @@ client.on('group-participants-update', async (anu) => {
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["6282334297175@s.whatsapp.net"] 
+			const ownerNumber = ["5519991718371@s.whatsapp.net"] 
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
