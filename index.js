@@ -150,7 +150,7 @@ client.on('group-participants-update', async (anu) => {
 			const isCmd = body.startsWith(prefix)
 
 			mess = {
-				wait: '❬❗❭ BOT DO NUKE PROCESSANDO%',
+				wait: '❬❗❭ Processando⌛',
 				success: '️❬ ✔ ❭ SUCESSO 🖤',
 				error: {
 					stick: 'Bem, falhei; (tente repetir ^_^',
