@@ -1,20 +1,16 @@
-const criador = () => {
-	return `
-
 ┏━━━━━━━━━━━━━━━━━━━━
-┃       /AJUDAR/
+┃          𝗗𝗢𝗡𝗔𝗦𝗜  
 ┣━━━━━━━━━━━━━━━━━━━━
-┣━⊱  CREDITOS ❉⊰━━✿
+┣━⊱ 𝗗𝗢𝗡𝗔𝗦𝗜 𝗕𝗢𝗦𝗤𝗨𝗘 ❉⊰━━✿
 ┃  
-┣━⊱ *CANAL*
-┣⊱ https://www.youtube.com/channel/UCj7RQZl2gSaVlYDJ4le5_vQ
-┣━⊱ *NUMERO*
-┣⊱ https://www.youtube.com/channel/UCj7RQZl2gSaVlYDJ4le5_vQ
+┣━⊱ *DANA*
+┣⊱ 0895-7100-73737
+┣━⊱ *PULSA*
+┣⊱ 0823-3429-7175
 ┃
 ┣━━━━━━━━━━━━━━━━━━━━
-┃  *BOT BY NUKE*
+┃  *BOT BY AFFIS*
 ┗━━━━━━━━━━━━━━━━━━━━
-
 `
 }
 
