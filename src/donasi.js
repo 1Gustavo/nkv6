@@ -2,17 +2,17 @@ const donasi = () => {
 	return `
 
 ┏━━━━━━━━━━━━━━━━━━━━
-┃          𝗗𝗢𝗡𝗔𝗦𝗜  
+┃        Creditos 
 ┣━━━━━━━━━━━━━━━━━━━━
-┣━⊱ 𝗗𝗢𝗡𝗔𝗦𝗜 𝗕𝗢𝗦𝗤𝗨𝗘 ❉⊰━━✿
+┣━⊱ NUKE MODS ❉⊰━━✿
 ┃  
-┣━⊱ *DANA*
+┣━⊱ *Numero*
 ┣⊱ 0895-7100-73737
-┣━⊱ *PULSA*
-┣⊱ 0823-3429-7175
+┣━⊱ *Canal*
+┣⊱ https://www.youtube.com/channel/UCj7RQZl2gSaVlYDJ4le5_vQ
 ┃
 ┣━━━━━━━━━━━━━━━━━━━━
-┃  *BOT BY AFFIS*
+┃  *BOT BY NUKE*
 ┗━━━━━━━━━━━━━━━━━━━━
 
 `
