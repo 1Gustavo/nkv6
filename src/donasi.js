@@ -7,7 +7,7 @@ const donasi = () => {
 ┣━⊱ NUKE MODS ❉⊰━━✿
 ┃  
 ┣━⊱ *Numero*
-┣⊱ 0895-7100-73737
+┣⊱ Wa.me/+5519991718371
 ┣━⊱ *Canal*
 ┣⊱ https://www.youtube.com/channel/UCj7RQZl2gSaVlYDJ4le5_vQ
 ┃
