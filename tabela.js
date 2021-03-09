@@ -1,4 +1,4 @@
-const tabela = () => {
+const tabela = (prefix) => {
 	return `
 Testando o cmd n liguem essa resposta e automatica
 
