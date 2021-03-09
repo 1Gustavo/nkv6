@@ -5,4 +5,4 @@ Testando o cmd n liguem essa resposta e automatica
 `
 }
 
-exports.tabela = tabela
+exports .tabela = tabela
