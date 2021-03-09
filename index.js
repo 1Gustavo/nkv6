@@ -696,6 +696,11 @@ client.on('group-participants-update', async (anu) => {
 					buffer = await getBuffer(`https://imgur.com/${meme.hash}.jpg`)
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: '.......'})
 					break
+					case '(tabela)':
+					memein = await kagApi.memeindo()
+					buffer = await getBuffer(`(link da imagem)`)
+					client.sendMessage(from, buffer, image, {quoted: mek, caption: '(FAZENDO)'})
+					break
 				case 'memeindo': 
 					memein = await kagApi.memeindo()
 					buffer = await getBuffer(`https://imgur.com/${memein.hash}.jpg`)
