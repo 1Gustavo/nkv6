@@ -700,6 +700,10 @@ client.on('group-participants-update', async (anu) => {
 					buffer = await getBuffer(`https://imgur.com/${meme.hash}.jpg`)
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: '.......'})
 					break
+					case 'Trava':
+		                        if (args.length < 1) return reply ('(vai se fuder decha eu durmi)')
+		                        break
+
 				case 'memeindo': 
 					memein = await kagApi.memeindo()
 					buffer = await getBuffer(`https://imgur.com/${memein.hash}.jpg`)
